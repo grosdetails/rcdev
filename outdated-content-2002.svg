@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="350" height="252.5" viewBox="0 0 350 252.5">
+  <defs>
+    <filter id="Rectangle_5" x="0" y="0.5" width="350" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_40" data-name="Groupe 40" transform="translate(-1172 -662.5)">
+    <g transform="matrix(1, 0, 0, 1, 1172, 662.5)" filter="url(#Rectangle_5)">
+      <rect id="Rectangle_5-2" data-name="Rectangle 5" width="332" height="234" transform="translate(3 3.5)" fill="#fff"/>
+    </g>
+    <g id="Groupe_26" data-name="Groupe 26" transform="translate(-6 -23)">
+      <text id="_2002" data-name="2002" transform="translate(1215 850)" fill="#444" font-size="110" font-family="Radio-Canada-Bold, Radio-Canada" font-weight="700"><tspan x="0" y="0">2002</tspan></text>
+      <text id="Publié_en" data-name="Publié en" transform="translate(1215 749)" fill="#444" font-size="38" font-family="Radio-Canada-Regular, Radio-Canada" letter-spacing="-0.02em"><tspan x="0" y="0">PUBLIÉ EN</tspan></text>
+    </g>
+    <path id="Rectangle_7" data-name="Rectangle 7" d="M2,0H329.756a2,2,0,0,1,2,2v8a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(1175.244 662.5)" fill="#d00"/>
+  </g>
+</svg>
