@@ -1,0 +1,84 @@
+:root {  
+  /* Color swatch */
+  --black-00:#010110;
+  --grey-10:#232634;
+  --grey-20:#414768;
+  --grey-30:#6F7596;
+  --grey-50:#AFBDDC;
+  --grey-70:#DEE4F2;
+  --grey-80:#ECF1FD;
+  --grey-90:#FAFAFF;
+  --white-100:#FFFFFF;
+  --blue-10:#232F9B;
+  --blue-30:#3341BB;
+  --blue-50:#4255F9;
+  --blue-90:#D7E6F3;
+  --red-30:#A12828;
+  --red-50:#DC3838;
+  --green-30:#236C47;
+  --green-50:#008555;
+  --gem-50:#C6181F;
+  --ttv-50:#009DA5;
+  
+  /* Light mode */
+  --text-copy-regular: var(--grey-20);
+  --text-copy-secondary: var(--grey-30);
+  --text-cta: var(--white-100); /* TBC. Still unsure about usage */
+  --text-error: var(--red-30);
+  --text-link-hover: var(--blue-50);
+  --text-link: var(--blue-30);
+  --text-title: var(--blue-10);
+  --background-container: var(--white-100);
+  --background-container-secondary: var(--grey-90);
+  --background-link: var(--grey-80);
+  --background-input: var(--white-100);
+  --border-error: var(--red-30);
+  --border-focus: var(--grey-50);
+  --border-input: var(--grey-50);
+  --border-input-hover: var(--grey-30);
+  --border-message: var(--grey-50);
+  --border-separator: var(--grey-50); /* TBC. Still unsure about usage */
+  --border-success: var(--green-30);
+
+  @media (prefers-contrast: more) {
+    --text-copy-regular: var(--black-00);
+    --text-copy-secondary: var(--grey-20);
+    --border-focus: var(--grey-20);
+    --border-input: var(--grey-20);
+    --border-input-hover: var(--grey-10);
+    --border-message: var(--grey-20);
+    --border-separator: var(--grey-20);
+  }
+  
+  @media (prefers-color-scheme: dark) {
+  --text-copy-regular: var(--grey-90);
+  --text-copy-secondary: var(--grey-70);
+  --text-cta: var(--white-100);
+  --text-error: var(--red-50);
+  --text-link-hover: var(--white-100);
+  --text-link: var(--blue-90);
+  --text-title: var(--blue-90);
+  --background-container: var(--black-00);
+  --background-container-secondary: var(--grey-10);
+  --background-link: var(--grey-10);
+  --background-input: var(--black-00);
+  --border-error: var(--red-50);
+  --border-focus: var(--grey-30);
+  --border-input: var(--grey-30);
+  --border-input-hover: var(--grey-50);
+  --border-message: var(--grey-30);
+  --border-separator: var(--grey-30);
+  --border-success: var(--green-50);
+  
+  @media (prefers-contrast: more) {
+    --text-copy-regular: var(--white-100);
+    --text-copy-secondary: var(--grey-80);
+    --text-link: var(--white-100);
+    --text-title: var(--white-100);
+    --border-focus: var(--grey-50);
+    --border-input: var(--grey-70);
+    --border-input-hover: var(--grey-90);
+    --border-message: var(--grey-70);
+    --border-separator: var(--grey-70);
+  }
+}
